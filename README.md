@@ -21,3 +21,12 @@ curl --location 'http://localhost:8080/api/v1/orders' \
 ```
 
 The logs in the services will show the received event.
+
+## Send email
+
+Need to add 2 env variables. Email sender and password token from your email provider.
+
+```.env
+EMAIL_FROM=
+PASSWORD_APPLICATION_GOOGLE=
+```
