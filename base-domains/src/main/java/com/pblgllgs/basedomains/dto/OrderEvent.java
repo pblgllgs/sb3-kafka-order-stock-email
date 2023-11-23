@@ -18,4 +18,8 @@ public class OrderEvent {
     private String message;
     private String status;
     private Order order;
+    private long userId;
+    private String emailTo;
+    private String subject;
+    private String text;
 }

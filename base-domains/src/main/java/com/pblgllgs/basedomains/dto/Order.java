@@ -18,4 +18,9 @@ public class Order {
     private String name;
     private int qty;
     private double price;
+    private long userId;
+    private String emailTo;
+    private String subject;
+    private String text;
+
 }
